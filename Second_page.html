@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fantasy sport</title>
+
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_content">
+                <div class="logo">
+                    <img src="resurce/Images/fantasy-soccer@2x.png">
+                </div>
+                <div class="main_title">
+                    <h2>Fantasy sport</h2>
+                </div>
+                <div class="user_content">
+                    <div class="user_box">
+                        <button class="signIn js-open-modal" data-signin="signin"><a>sign in</a></button>
+                        <button class="signUp"><a>sign up</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login_window" data-signin="signin">
+        <div class="main-div transform">
+           <div class="my_close js-modal-close"><i class="fas fa-times"></i></div>
+            <div class="panel">
+                <h2>Sign in</h2>
+                <p>Please enter your username and password</p>
+            </div>
+            <form id="Login">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                </div>
+                <div class="forgot">
+                    <a href="reset.html">Forgot password?</a>
+                </div>
+                <input type="submit" class="btn" name="submit" value="sign in">
+            </form>
+        </div>
+    </div>
+    <div class="overlay js-overlay-modal"></div>
+    <div class="real_match my_grid container">
+        <div class="left_info">
+            <div class="ruls">
+                <form action="" class="search">
+                    <input type="search" placeholder="Find player">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <span>Affordable</span>
+                    </label>
+                </form>
+                <form action="range" class="range">
+                    <div class="range_padding">
+                        <div>
+                            <h6>Max price <span>12<span>M</span></span></h6>
+                        </div>
+                        <input type="range" id="range">
+                    </div>
+                </form>
+                <div class="dropdown">
+                    <select name="pl_status" id="pl_status">
+                        <option value="0">All players statuses</option>
+                        <option value="1">Avaiable</option>
+                        <option value="2">Doubtful</option>
+                        <option value="3">Unavaiable</option>
+                    </select>
+                    <select name="all_teams" id="all_teams">
+                        <option value="0">All teams</option>
+                        <option value="1">Select several</option>
+                        <option value="2">Benin</option>
+                        <option value="3">Ghana</option>
+                    </select>
+                </div>
+                <div class="players">
+                    <div>
+                        <ul>
+                            <li>All</li>
+                            <li>Def</li>
+                            <li>Mid</li>
+                            <li>For</li>
+                            <li><i class="far fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="schedul">
+                <ul class="choices">
+                    <li class="schedul_ruls">
+                        <span></span>
+                        <span></span>
+                        <span>Player</span>
+                        <span>form</span>
+                        <span>Pts</span>
+                        <span>Price</span>
+                    </li>
+                    <li class="choice">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>      
+                       </div>
+                    </li>
+                    <li class="choice">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>      
+                       </div>
+                    </li>
+                    <li class="choice">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>      
+                       </div>
+                    </li>
+                    <li class="choice">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>      
+                       </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="football_area">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit minima rerum placeat enim ducimus voluptas? Illo magni, totam ea eligendi
+            </div>
+        </div>
+        <div class="status">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eligendi ab quidem quia voluptatibus ipsa aliquid placeat pariatur dolore nisi
+            </div>
+        </div>
+        <div class="Gameweek">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quia totam eos aliquam, enim adipisci doloremque repudiandae harum accusamus natus sequi quos doloribus sit sint eaque eveniet veritatis, voluptas quidem
+            </div>
+        </div>
+    </div>
+    <script src="Js/main.js"></script>
+    <script>
+        $(".add_player").click(function(){
+            var icon = $(this).next(".icon");
+            $(this).toggleClass("add_player_active");
+            $(this).children(icon).toggleClass("fa-plus");
+            $(this).children(icon).toggleClass("fa-check");
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fantasy sport</title>
+
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_content">
+                <div class="logo">
+                    <img src="resurce/Images/fantasy-soccer@2x.png">
+                </div>
+                <div class="main_title">
+                    <h2>Fantasy sport</h2>
+                </div>
+                <div class="user_content">
+                    <div class="user_box">
+                        <button class="signIn js-open-modal" data-signin="signin"><a>sign in</a></button>
+                        <button class="signUp"><a>sign up</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login_window" data-signin="signin">
+        <div class="main-div transform">
+           <div class="my_close js-modal-close"><i class="fas fa-times"></i></div>
+            <div class="panel">
+                <h2>Sign in</h2>
+                <p>Please enter your username and password</p>
+            </div>
+            <form id="Login">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                </div>
+                <div class="forgot">
+                    <a href="reset.html">Forgot password?</a>
+                </div>
+                <input type="submit" class="btn" name="submit" value="sign in">
+            </form>
+        </div>
+    </div>
+    <div class="overlay js-overlay-modal"></div>
+    <div class="container">
+        <div class="back_color">
+            <div class="special_icons">
+                <div class="icon_wrapper">
+                    <ul>
+                        <li><i class="far fa-futbol"></i></li>
+                        <li><i class="fas fa-basketball-ball"></i></li>
+                        <li><i class="fas fa-table-tennis"></i></li>
+                        <li><i class="fas fa-baseball-ball"></i></li>
+                        <li><i class="fas fa-hockey-puck"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leagues_content">
+                <ul class="leagues">
+                    <li>
+                        <div class="ligue_button">
+                            <h3>All leagues</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/gold%20cup-01.png"> </div>
+                            <h3>cup world</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/Mexica.png"> </div>
+                            <h3>mexica</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/finland.png"> </div>
+                            <h3>finland</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/Ingland.png"> </div>
+                            <h3>england</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/brazil.png"> </div>
+                            <h3>brasil</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/spain-01.png"> </div>
+                            <h3>spain</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ligue_button">
+                            <div><img src="resurce/Icons/italia-01.png"> </div>
+                            <h3>italy</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="large_buttons container">
+                <div class="row">
+                    <div class="sport_rooms col-md-4">
+                        <h4>oficial games</h4>
+                    </div>
+                    <div class="sport_rooms col-md-4">
+                        <h4 class="out">american football</h4>
+                    </div>
+                    <div class="sport_rooms col-md-4">
+                        <h4 class="out">tennis</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="go_content">
+            <div class="go_wrapper">
+                <div class="each_play">
+                    <img src="resurce/Icons/9118.png" alt="">
+                    <h4><span class="name_first">aca </span></h4>
+                    <div class="time_box">
+                        <div class="hour"><span>12</span></div>
+                        <div class="minute"><span>34</span></div>
+                        <div class="second"><span>25</span></div>
+                    </div>
+                    <div class="turn_duration">
+                        <div class="hour"><span>2</span></div>
+                        <div class="minute"><span>gw12</span></div>
+                    </div>
+                    <div class="price_box">
+                        <div class="price_wrapper">
+                            <h3 class="kon">500$</h3>
+                            <button class="play">play<span>1.1<span>$</span></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_play">
+                    <img src="resurce/Icons/9118.png" alt="">
+                    <h4><span class="name_first">aca </span></h4>
+                    <div class="time_box">
+                        <div class="hour"><span>12</span></div>
+                        <div class="minute"><span>34</span></div>
+                        <div class="second"><span>25</span></div>
+                    </div>
+                    <div class="turn_duration">
+                        <div class="hour"><span>2</span></div>
+                        <div class="minute"><span>gw12</span></div>
+                    </div>
+                    <div class="price_box">
+                        <div class="price_wrapper">
+                            <h3 class="kon">500$</h3>
+                            <button class="play">play<span>1.1<span>$</span></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_play">
+                    <img src="resurce/Icons/9118.png" alt="">
+                    <h4><span class="name_first">aca </span></h4>
+                    <div class="time_box">
+                        <div class="hour"><span>12</span></div>
+                        <div class="minute"><span>34</span></div>
+                        <div class="second"><span>25</span></div>
+                    </div>
+                    <div class="turn_duration">
+                        <div class="hour"><span>2</span></div>
+                        <div class="minute"><span>gw12</span></div>
+                    </div>
+                    <div class="price_box">
+                        <div class="price_wrapper">
+                            <h3 class="kon">500$</h3>
+                            <button class="play">play<span>1.1<span>$</span></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_play">
+                    <img src="resurce/Icons/9118.png" alt="">
+                    <h4><span class="name_first">aca </span></h4>
+                    <div class="time_box">
+                        <div class="hour"><span>12</span></div>
+                        <div class="minute"><span>34</span></div>
+                        <div class="second"><span>25</span></div>
+                    </div>
+                    <div class="turn_duration">
+                        <div class="hour"><span>2</span></div>
+                        <div class="minute"><span>gw12</span></div>
+                    </div>
+                    <div class="price_box">
+                        <div class="price_wrapper">
+                            <h3 class="kon">500$</h3>
+                            <button class="play">play<span>1.1<span>$</span></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="each_play">
+                    <img src="resurce/Icons/9118.png" alt="">
+                    <h4><span class="name_first">aca </span></h4>
+                    <div class="time_box">
+                        <div class="hour"><span>12</span></div>
+                        <div class="minute"><span>34</span></div>
+                        <div class="second"><span>25</span></div>
+                    </div>
+                    <div class="turn_duration">
+                        <div class="hour"><span>2</span></div>
+                        <div class="minute"><span>gw12</span></div>
+                    </div>
+                    <div class="price_box">
+                        <div class="price_wrapper">
+                            <h3 class="kon">500$</h3>
+                            <button class="play">play<span>1.1<span>$</span></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>

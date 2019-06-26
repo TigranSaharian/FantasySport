@@ -1,0 +1,7 @@
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\bin\Debug\FantasyLineUp.exe.config
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\bin\Debug\FantasyLineUp.exe
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\bin\Debug\FantasyLineUp.pdb
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\obj\Debug\FantasyLineUp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\obj\Debug\FantasyLineUp.exe
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\obj\Debug\FantasyLineUp.pdb
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\FantasyLineUp\obj\Debug\FantasyLineUp.csprojAssemblyReference.cache

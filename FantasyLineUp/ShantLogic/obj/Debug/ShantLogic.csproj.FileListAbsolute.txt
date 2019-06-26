@@ -1,0 +1,7 @@
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\bin\Debug\ShantLogic.exe.config
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\bin\Debug\ShantLogic.exe
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\bin\Debug\ShantLogic.pdb
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\obj\Debug\ShantLogic.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\obj\Debug\ShantLogic.exe
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\obj\Debug\ShantLogic.pdb
+C:\Users\Asus\Desktop\Fantasy Sport\FantasyLineUp\ShantLogic\obj\Debug\ShantLogic.csprojAssemblyReference.cache
