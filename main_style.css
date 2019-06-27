@@ -299,7 +299,7 @@ ul li h3{
     grid-column: 1/2;
     background-color: #363e48;
     color: #eee;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .search{
     padding: 15px;
@@ -393,7 +393,7 @@ ul li h3{
 }
 .schedul{
     background-color: #eee;
-    border-radius: 0 0 10px 10px;
+    border-radius: 5px;
 }
 
 .schedul ul{
@@ -522,7 +522,7 @@ ul li h3{
 
 .status{
     background-color: #eee;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .status header{
     width: 100%;
@@ -601,10 +601,6 @@ ul li h3{
     transform: translateY(-50%);
     left: 3%;
 }
-.football_area{
-    background-color: #1A1E23;
-    border-radius: 10px;
-}
 
 .area img{
     width: 100%;
@@ -614,7 +610,7 @@ ul li h3{
     background: -webkit-linear-gradient(left, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
     background: -o-linear-gradient(left, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
     background: linear-gradient(to right, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 5px;
 }
 
 .vs img{
@@ -626,7 +622,6 @@ ul li h3{
     margin-bottom: auto;
     height: 100%;
     padding-left: 25px;
-    border-radius: 10px 10px 0 0;
 }
 .vs h5{
     display: inline-block;
@@ -698,7 +693,9 @@ ul li h3{
 
 .area{
     position: relative;
-    padding-top: 20px;
+    margin-top: 10px;
+    background-color: #1A1E23;
+    border-radius: 5px;
 }
 
 .team_positions{
@@ -706,7 +703,7 @@ ul li h3{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
     position: absolute;
-    top: 60%;
+    top: 69%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -731,10 +728,14 @@ ul li h3{
     justify-content: center;
 }
 
+.footbal-add {
+    padding-bottom: 35px;
+}
 
-
-
-
+.Gameweek{
+    background-color: #eee;
+    border-radius: 5px;
+}
 
 
 
