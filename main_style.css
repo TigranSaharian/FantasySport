@@ -299,6 +299,7 @@ ul li h3{
     grid-column: 1/2;
     background-color: #363e48;
     color: #eee;
+    border-radius: 10px;
 }
 .search{
     padding: 15px;
@@ -392,6 +393,7 @@ ul li h3{
 }
 .schedul{
     background-color: #eee;
+    border-radius: 0 0 10px 10px;
 }
 
 .schedul ul{
@@ -520,11 +522,11 @@ ul li h3{
 
 .status{
     background-color: #eee;
+    border-radius: 10px;
 }
 .status header{
     width: 100%;
     padding: 15px;
-    border: 1.5px solid #ccc;
     font-family: 'Swis721 Blk BT', sans-serif;
     font-size: 19px;
 }
@@ -599,6 +601,140 @@ ul li h3{
     transform: translateY(-50%);
     left: 3%;
 }
+.football_area{
+    background-color: #1A1E23;
+    border-radius: 10px;
+}
+
+.area img{
+    width: 100%;
+}
+
+.match_info{
+    background: -webkit-linear-gradient(left, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
+    background: -o-linear-gradient(left, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
+    background: linear-gradient(to right, rgb(0,23,109) 0%, rgb(102,71,132) 100%);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.vs img{
+    width: 30px;
+    height: auto;
+}
+.vs{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    padding-left: 25px;
+    border-radius: 10px 10px 0 0;
+}
+.vs h5{
+    display: inline-block;
+    color: #eee;
+    font-family: 'Swis721 Blk BT', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    margin: 0;
+}
+.my_row{
+    padding: 0 15px;
+}
+.conditions{
+    padding: 10px 0;
+    text-align: center;
+    border: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #eee;
+    border-left-color: #eee;
+}
+.conditions div{
+    display: inline-block;
+}
+.each_c span{
+    display:flex;
+    justify-content: center;
+    color: #ccc;
+}
+.each_c b span{
+    color: #eee;
+    margin-top: 1px;
+}
+.clock{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+.clock i{
+    padding-right: 15px;
+}
+
+.clock div{
+    color: #eee;
+    display: inline-block;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Swis721 Blk BT', sans-serif;
+}
+
+.local_player{
+    width: 90px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgb(208,218,224) 0%,rgb(255,255,255) 100%);
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.local_player::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Swis721 Blk BT', sans-serif;
+    color: #363e48;
+}
+
+.area{
+    position: relative;
+    padding-top: 20px;
+}
+
+.team_positions{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.defender{
+    grid-row: 1/2;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mitfielder{
+    grid-row: 2/3;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.forward{
+    grid-row: 3/4;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
