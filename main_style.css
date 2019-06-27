@@ -650,6 +650,7 @@ ul li h3{
     display:flex;
     justify-content: center;
     color: #ccc;
+    margin: 0 5px;
 }
 .each_c b span{
     color: #eee;
@@ -659,6 +660,7 @@ ul li h3{
     margin-top: auto;
     margin-bottom: auto;
     width: 100%;
+    text-align: center;
 }
 .clock i{
     padding-right: 15px;
