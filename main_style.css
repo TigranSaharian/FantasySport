@@ -359,19 +359,9 @@ ul li h3{
 .dropdown select:nth-child(1){
     background-color: #363e48;
     padding: 5px;
-    width: 44%;
     color: #eee;
+    width: 200px;
     margin:0 5px 15px 15px ;
-    border: none;
-    font-size: calc(0.3vw + 9px);
-}
-.dropdown select:nth-child(2){
-    float: right;
-    width: 44%;
-    background-color: #363e48;
-    padding: 5px;
-    color: #eee;
-    margin:0 15px 15px 5px ;
     border: none;
     font-size: calc(0.3vw + 9px);
 }
