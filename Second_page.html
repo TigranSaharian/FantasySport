@@ -85,11 +85,11 @@
                 <div class="players">
                     <div>
                         <ul>
-                            <li>All</li>
-                            <li>Def</li>
-                            <li>Mid</li>
-                            <li>For</li>
-                            <li>Gol</li>
+                            <li class="btn-filter" data-target="all">All</li>
+                            <li class="btn-filter" data-target="gol">Gol</li>
+                            <li class="btn-filter" data-target="def">Def</li>
+                            <li class="btn-filter" data-target="mid">Mid</li>
+                            <li class="btn-filter" data-target="for">For</li>
                         </ul>
                     </div>
                 </div>
@@ -104,47 +104,57 @@
                         <span>Pts</span>
                         <span>Price</span>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="mid">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>mid</span></div>
                             <div class="player_name"><p>R. Carlos</p></div>
                             <div class="match">0</div>
                             <div class="column_1"><span>0</span></div>
                             <div class="column_2">5.0M</div>      
                        </div>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="gol">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>gol</span></div>
                             <div class="player_name"><p>R. Carlos</p></div>
                             <div class="match">0</div>
                             <div class="column_1"><span>0</span></div>
                             <div class="column_2">5.0M</div>      
                        </div>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="for">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>for</span></div>
                             <div class="player_name"><p>R. Carlos</p></div>
                             <div class="match">0</div>
                             <div class="column_1"><span>0</span></div>
                             <div class="column_2">5.0M</div>      
                        </div>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="for">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>for</span></div>
                             <div class="player_name"><p>R. Carlos</p></div>
                             <div class="match">0</div>
                             <div class="column_1"><span>0</span></div>
                             <div class="column_2">5.0M</div>      
                        </div>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="gol">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>gol</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>
+                       </div>
+                    </li>
+                    <li class="choice" data-status="def">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
                             <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
@@ -154,7 +164,37 @@
                             <div class="column_2">5.0M</div>
                        </div>
                     </li>
-                    <li class="choice">
+                    <li class="choice" data-status="mid">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>mid</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>
+                       </div>
+                    </li>
+                    <li class="choice" data-status="mid">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>mid</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>
+                       </div>
+                    </li>
+                    <li class="choice" data-status="mid">
+                       <div class="one">
+                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
+                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>mid</span></div>
+                            <div class="player_name"><p>R. Carlos</p></div>
+                            <div class="match">0</div>
+                            <div class="column_1"><span>0</span></div>
+                            <div class="column_2">5.0M</div>
+                       </div>
+                    </li>
+                    <li class="choice" data-status="def">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
                             <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
@@ -164,47 +204,7 @@
                             <div class="column_2">5.0M</div>
                        </div>
                     </li>
-                    <li class="choice">
-                       <div class="one">
-                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
-                            <div class="player_name"><p>R. Carlos</p></div>
-                            <div class="match">0</div>
-                            <div class="column_1"><span>0</span></div>
-                            <div class="column_2">5.0M</div>
-                       </div>
-                    </li>
-                    <li class="choice">
-                       <div class="one">
-                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
-                            <div class="player_name"><p>R. Carlos</p></div>
-                            <div class="match">0</div>
-                            <div class="column_1"><span>0</span></div>
-                            <div class="column_2">5.0M</div>
-                       </div>
-                    </li>
-                    <li class="choice">
-                       <div class="one">
-                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
-                            <div class="player_name"><p>R. Carlos</p></div>
-                            <div class="match">0</div>
-                            <div class="column_1"><span>0</span></div>
-                            <div class="column_2">5.0M</div>
-                       </div>
-                    </li>
-                    <li class="choice">
-                       <div class="one">
-                            <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
-                            <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>
-                            <div class="player_name"><p>R. Carlos</p></div>
-                            <div class="match">0</div>
-                            <div class="column_1"><span>0</span></div>
-                            <div class="column_2">5.0M</div>
-                       </div>
-                    </li>
-                    <li class="choice">
+                    <li class="choice" data-status="def">
                        <div class="one">
                             <div class="add_player" onclick="add_me()"><i class="fas fa-plus icon"></i></div>
                             <div class="shirt"><img src="resurce/Images/front-1-350x435.png" alt=""><span>def</span></div>

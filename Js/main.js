@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }); // end ready
 
+// Clock Function
 function showTime(){
     var date = new Date();
     var h = date.getHours();
@@ -99,3 +100,24 @@ function showTime(){
     setTimeout(showTime, 1000);
 }
 showTime();
+
+//players filter
+$(document).ready(function () {
+    $('.btn-filter').click(function(){
+        if($('.btn-checked') != true){
+            $('.btn-filter').removeClass('btn-checked');
+            $(this).addClass('btn-checked');
+        }
+    });
+
+    $('.btn-filter').on('click', function () {
+      var $target = $(this).data('target');
+      if ($target != 'all') {
+        $('.choice').css('display', 'none');
+        $('.choice[data-status="' + $target + '"]').fadeIn('slow');
+      } else {
+        $('.choice').css('display', 'none').fadeIn('slow');
+      }
+    });
+
+ });
