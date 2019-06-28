@@ -676,6 +676,7 @@ ul li h3{
 
 .local_player{
     width: 90px;
+    position: relative;
     height: 50px;
     background: linear-gradient(to bottom, rgb(208,218,224) 0%,rgb(255,255,255) 100%);
     position: relative;
@@ -837,4 +838,26 @@ ul li h3{
     margin: 0 20px;
 }
 
-
+.burger{
+    position: absolute;
+    left: 50%;
+    display: none;
+    transform: translateX(-50%);
+    color: #eee;
+    top: -13px;
+    padding: 8px 20px;
+    background-color: #1A1E23;
+    text-align: center;
+}
+.burger span{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.burger span:nth-child(1){
+    color: #f7ff00;
+    font-weight: 700;
+}
+.burger span:nth-child(2){
+    font-size: 15px;
+    font-weight: 800;
+}

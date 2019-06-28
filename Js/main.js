@@ -110,7 +110,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.btn-filter').on('click', function () {
+    $('.btn-filter, .local_player').on('click', function () {
       var $target = $(this).data('target');
       if ($target != 'all') {
         $('.choice').css('display', 'none');
@@ -119,5 +119,4 @@ $(document).ready(function () {
         $('.choice').css('display', 'none').fadeIn('slow');
       }
     });
-
  });
