@@ -297,11 +297,11 @@ ul li h3{
 
 .left_info{
     grid-column: 1/2;
-    background-color: #363e48;
     color: #eee;
     border-radius: 5px;
 }
 .search{
+    background-color: #363e48;
     padding: 15px;
     font-family: 'Swis721 Blk BT', sans-serif;
 }
@@ -366,17 +366,25 @@ ul li h3{
     font-size: calc(0.3vw + 9px);
 }
 .players{
-    margin-top: 10px;
+    background-color: #363e48;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.players ul{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .players ul li{
-    margin-left:12px;
+    margin-right: 10px;
     padding:0px 13px;
     background-color: #1A1E23;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
-
+.players ul li:last-child{
+    margin-right: 0;
+}
 
 .schedul{
     background-color: #eee;
@@ -693,22 +701,28 @@ ul li h3{
 
 .team_positions{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
     position: absolute;
-    top: 62%;
-    left: 50%;
+    top: 53%;
+    left: 52%;
     transform: translate(-50%, -50%);
 }
-.defender{
+.goalkeeper{
     grid-row: 1/2;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.defender{
+    grid-row: 2/3;
     padding: 40px 0;
     display: flex;
     justify-content: center;
 }
 
 .mitfielder{
-    grid-row: 2/3;
+    grid-row: 3/4;
     padding: 40px 0;
     display: flex;
     justify-content: center;
@@ -717,7 +731,7 @@ ul li h3{
     position: relative;
 }
 .forward{
-    grid-row: 3/4;
+    grid-row: 4/5;
     padding: 40px 0;
     display: flex;
     justify-content: center;
