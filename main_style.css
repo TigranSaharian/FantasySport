@@ -712,7 +712,9 @@ ul li h3{
     display: flex;
     justify-content: center;
 }
-
+.add{
+    position: relative;
+}
 .forward{
     grid-row: 3/4;
     padding: 40px 0;
@@ -723,11 +725,67 @@ ul li h3{
 .footbal-add {
     padding-bottom: 35px;
 }
+.footbal-add img{
+    height: 100px;
+}
 
 .Gameweek{
     background-color: #eee;
     border-radius: 5px;
 }
+
+.autocomplete_section{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    transform: translateY(-80%);
+    right: 50px;
+}
+
+.autocomplete_section button{
+    display: inline-block;
+    height: 100%;
+    padding: 10px 15px;
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.autocomplete_section .fa-bolt{
+    font-size: 12px;
+}
+
+.autocomplete_section i{
+    margin: 0;
+    line-height: 0;
+    padding: 0;
+}
+.autocomplete_section button p{
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+.autocomplete_section select{
+    margin-right: 50px;
+    padding: 5px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #1A1E23;
+    color: #eee;
+    width: 200px;
+    border: none;
+}
+
+
+
+
+
+
+
+
 
 
 
