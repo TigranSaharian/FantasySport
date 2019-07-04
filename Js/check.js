@@ -24,6 +24,7 @@
         lenght_msg.innerHTML = '* The length of password is correct!';
      }
      else{
+         lenght_msg.style.color = 'darkgray';
          lenght_msg.innerHTML = '* Your password must be at least 8 characters long';
      }
  }
