@@ -4,12 +4,12 @@
      var msg = document.getElementById("message");
          if (p == cp && p != '' && cp != ''){  // && = и
              msg.style.color = '#fff';
-             msg.innerHTML = 'Good!! text is matching';
+             msg.innerHTML = '* Nice! text is matching';
          }
 
          else if (p != cp && cp != '') {
              msg.style.color = 'red';
-             msg.innerHTML = 'Your text does not match';
+             msg.innerHTML = '* Your text does not match';
          }
 
          else{
