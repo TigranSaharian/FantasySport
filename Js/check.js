@@ -3,7 +3,7 @@
      var cp = document.getElementById("confirm_password").value;
      var msg = document.getElementById("message");
          if (p == cp && p != '' && cp != ''){  // && = и
-             msg.style.color = '#fff';
+             msg.style.color = '#F7FF00';
              msg.innerHTML = '* Nice! text is matching';
          }
 
@@ -20,6 +20,7 @@
 
     if(p.length >= 10){
         lenght_msg.innerHTML = '';
+        lenght_msg.style.color = '#F7FF00';
         lenght_msg.innerHTML = '* The length of password is correct!';
      }
      else{
