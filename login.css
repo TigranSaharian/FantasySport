@@ -185,10 +185,14 @@ input:focus:valid {
 
 }
 
-.register_btn{
+.register_btn {
     text-align: center;
 }
 
+.register_btn a{
+    text-decoration: none;
+    width: 100%;
+}
 .login-button{
 	margin-top: 5px;
 }
