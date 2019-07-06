@@ -11,7 +11,7 @@ button:focus{
     outline: none;
 }
 body{
-    background-image: url(resurce/Images/Image%201.jpg);
+    background-image: url(resurce/Images/Back_image.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
