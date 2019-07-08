@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="admin.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script>
+        (function(e, t, n) {
+            var r = e.querySelectorAll("html")[0];
+            r.className = r.className.replace(/(^|s)no-js(s|$)/, "$1js$2")
+        })(document, window, 0);
+    </script></head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header_content">
+                <div class="logo">
+                    <a href="Index.html"><img src="resurce/Images/Logo.png"></a>
+                </div>
+                <div class="main_title">
+                    <h2>Fantasy sport</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="container">
+	    <div class="admin">
+	        <div class="admin-login main-center">
+	            <div class="input_box">
+	                <h5>Admin Box</h5>
+	            </div>
+	            <form method="post" action="post">
+	                <div class="row">
+	                    <div class="col-md-5 admin-group">
+	                        <input type="text" required class="form-control" name="Title" id="Title" placeholder="Enter the turnoment title" />
+	                    </div>
+	                    <div class="col-md-5 offset-md-2 admin-group">
+	                        <input type="text" required class="form-control" name="balance" id="Balance" placeholder="Enter Balance" />
+	                    </div>
+	                    <div class="col-md-5">
+	                        <select class="teams-list" name="teams-right">
+	                            <option value="0">All teams</option>
+	                            <option value="1">Barselona</option>
+	                        </select>
+	                    </div>
+	                    <div class="col-md-2 date-time">
+	                        <div class="time" id="time">20:00</div>
+	                        <div class="date" id="date">10/09</div>
+	                    </div>
+	                    <div class="col-md-5">
+	                        <select class="teams-list" name="temas-left">
+	                            <option value="">All teams</option>
+	                            <option value="">Real Madrid</option>
+	                        </select>
+	                    </div>
+	                    <div class="col-md-5 file">
+	                        <input type="file" name="file" id="file" class="inputfile"/>
+	                    </div>
+	                    <div class="col-md-5 offset-md-2 admin-group add_btn">
+	                        <input type="submit" id="button" value="Add" class="btn btn-primary btn-lg btn-block login-button">
+	                    </div>
+	                </div>
+	            </form>
+	        </div>
+	    </div>
+	</div>
+
+    <script src="Js/check.js"></script>
+    <script src="Js/main.js"></script>
+
+</body>
+
+</html>
